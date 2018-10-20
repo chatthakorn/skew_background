@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+body {
+  background-color: #222;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif; }
+
+.skewed-bg {
+  background: #00b285;
+  padding: 200px 0;
+  transform: skew(0deg, -10deg);
+  margin-top: -200px; }
+  .skewed-bg .content {
+    transform: skew(0deg, 10deg);
+    text-align: center; }
+    .skewed-bg .content .title {
+      padding-top: 100px;
+      font-weight: normal;
+      font-size: 30px; }
+    .skewed-bg .content .text {
+      width: 60%;
+      margin: 25px auto;
+      color: #ccfff2; }
+
+footer {
+  padding-top: 300px; }
+  footer .credits {
+    text-align: center;
+    color: #666; }
+    footer .credits .link {
+      color: #00b285;
+      text-decoration: none; }
